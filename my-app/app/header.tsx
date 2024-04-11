@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 export default function Header() {
+
   return (
     <nav className="bg-gray-800 flex justify-between items-center h-20 p-4">
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
@@ -10,7 +11,7 @@ export default function Header() {
       <ul className="flex gap-6 list-none">
         <Link href="/">Home</Link>
         <Link href="/menu">Menu</Link>
-        <Link href="/order">ORDER</Link>
+        <Link href="https://food.google.com/chooseprovider?restaurantId=/g/11qgjrtm0j&g2lbs=AIQllVy8sSJha1eKy1D2BNEfE8NH_q9HMLaNGrD2s28lOZ-3iXmtVuDmoyCGT90lWVdHdT0o-ipf9-v6ieHv2ylMOxVX3tRdG_lz2RxfGI1lVwj8EFps36X9_tp-0v1yvjje-Pm-80gN&hl=en-US&gl=us&cs=1&ssta=1&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&gei=CDAWZtvxIM2Twt0PlfuWQA&ei=CDAWZtvxIM2Twt0PlfuWQA&fo_s=OA&opi=89978449&foub=mcpp&orderType=2&sei=CcvpGENHfyq7EekjSY7uG639&utm_campaign&utm_source=search">ORDER</Link>
       </ul>
     </nav>
   );
